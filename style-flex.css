@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flex1 {
+	display: flex;
+	width: 100%;
+	background-color: #b44c97;
+	padding: 30px 20px;
+	justify-content: flex-end;
+}
+.flex1 > div {
+  	height: 70px;
+  	margin: 0 10px;
+	background-color: #a59aca;
+	flex-basis: 140px;
+}
+.flex1 > div:first-child{
+	margin-right: auto;
+}
+.flex-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.flex2{
+	display: flex;
+	height: 70vh;
+	width: 300px;
+	background-color: #66CDAA;
+}
+.flex3{
+	max-width: 700px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 70vh;
+	flex-grow: 1;
+	display: flex;
+	padding: 20px;
+	background-color: #006400;
+}
+.flex3 > div{
+	margin: 10px;
+	flex-basis: 200px;
+	height: 130px;
+	background-color: #F0E68C;
+}
+.flex4{
+	display: flex;
+	padding: 20px;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	background-color: #87CEEB;
+}
+.flex4 > div{
+	margin: 10px;
+	flex-basis: 45%;
+	max-width: 600px;
+	height: 40px;
+	background-color: blue;
+
+}
+.flex4 > div:last-child{
+}
+
+
+
+
+
